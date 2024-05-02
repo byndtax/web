@@ -11,7 +11,6 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./icon/logo_ico.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
@@ -20,7 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="./vendor/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
     <link rel="stylesheet" href="./vendor/aos/dist/aos.css">
     <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css">
@@ -38,8 +36,6 @@
       "fixMoment": 1000,
       "fixEffect": "show-hide"
     }'>
-
-
         <div class="container">
             <nav class="js-mega-menu navbar-nav-wrap">
                 <!-- Default Logo -->
@@ -75,6 +71,7 @@
                                 <div class="hs-sub-menu dropdown-menu" aria-labelledby="serviceMegaMenu"
                                     style="min-width: 14rem;">
                                     <a class="dropdown-item " href="./service_startBusiness">사업 시작하기</a>
+                                    <div class="dropdown-divider"></div>
 
                                     <!-- Small Business -->
                                     <div class="hs-has-sub-menu nav-item">
@@ -85,6 +82,7 @@
                                         <div class="hs-sub-menu dropdown-menu" aria-labelledby="smallBusinessMegaMenu"
                                             style="min-width: 14rem;">
                                             <a class="dropdown-item " href="./service_filingTaxes">법인세 신고</a>
+                                            <div class="dropdown-divider"></div>
                                             <a class="dropdown-item " href="./service_PA">결산재무제표 작성</a>
                                             <a class="dropdown-item " href="./service_PA">감사대응</a>
                                             <a class="dropdown-item " href="./service_accAdvisory">회계자문</a>
@@ -95,17 +93,19 @@
                                     <!-- individual Business -->
                                     <div class="hs-has-sub-menu nav-item">
                                         <a id="individualBusinessMegaMenu"
-                                            class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#"
+                                            class="hs-mega-menu-invoker dropdown-item dropdown-toggle active" href="#"
                                             role="button" aria-expanded="false">개인사업자</a>
 
                                         <div class="hs-sub-menu dropdown-menu"
                                             aria-labelledby="individualBusinessMegaMenu" style="min-width: 14rem;">
                                             <a class="dropdown-item " href="./service_filingTaxes">소득세 신고</a>
+                                            <div class="dropdown-divider"></div>
                                             <a class="dropdown-item active"
                                                 href="./service_conToCorporation">법인전환</a>
                                         </div>
                                     </div>
                                     <!-- End individual Business -->
+                                    <div class="dropdown-divider"></div>
 
                                     <a class="dropdown-item " href="./service_bookkeeping">기장대리</a>
                                     <a class="dropdown-item " href="./service_filingTaxes">양도세 신고</a>
@@ -150,14 +150,13 @@
                                     style="min-width: 14rem;">
                                     <a class="dropdown-item " href="./article">Article</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item " href="https://blog.naver.com/byndtax">네이버블로그</a>
+                                    <a class="dropdown-item " href="https://blog.naver.com/byndtax"
+                                        target="_blank">네이버블로그 <i class="bi-box-arrow-up-right small ms-1"></i></a>
 
                                 </div>
                                 <!-- End Mega Menu -->
                             </li>
                             <!-- End Blog -->
-
-
 
                             <!-- Button -->
                             <li class="nav-item">
@@ -172,7 +171,6 @@
             </nav>
         </div>
     </header>
-
     <!-- ========== END HEADER ========== -->
 
     <!-- ========== MAIN CONTENT ========== -->
@@ -206,7 +204,6 @@
         </div>
         <!-- End Gallery -->
 
-
         <!-- Icon Blocks -->
         <div class="container content-space-2 content-space-lg-3">
             <!-- Heading -->
@@ -231,10 +228,6 @@
                                         d="M12 22C14.6 22 17 21 18.7 19.4C17.9 16.9 15.2 15 12 15C8.8 15 6.09999 16.9 5.29999 19.4C6.99999 21 9.4 22 12 22Z"
                                         fill="#035A4B" />
                                 </svg>
-
-
-
-
                             </div>
                         </div>
 
@@ -265,19 +258,12 @@
                                         d="M18.5 11C18.5 10.2 17.8 9.5 17 9.5C16.2 9.5 15.5 10.2 15.5 11C15.5 11.4 15.7 11.8 16 12.1V13C16 13.6 16.4 14 17 14C17.6 14 18 13.6 18 13V12.1C18.3 11.8 18.5 11.4 18.5 11Z"
                                         fill="#035A4B" />
                                 </svg>
-
-
-
-
-
                             </div>
                         </div>
 
                         <div class="flex-grow-1 ms-3">
                             <h4>개인 자산 보호</h4>
                             <p>개인 사업체에서 법인으로 전환하면 대표님의 개인 자산을 사업체의 자산과 분리하여 보호하는 데 도움이 됩니다.
-
-
                             </p>
                         </div>
                     </div>
@@ -300,9 +286,6 @@
                                         d="M22 6.725V7.725C22 8.325 21.6 8.725 21 8.725H18C18.6 8.725 19 9.125 19 9.725C19 10.325 18.6 10.725 18 10.725V15.725C18.6 15.725 19 16.125 19 16.725V17.725H15V16.725C15 16.125 15.4 15.725 16 15.725V10.725C15.4 10.725 15 10.325 15 9.725C15 9.125 15.4 8.725 16 8.725H13C13.6 8.725 14 9.125 14 9.725C14 10.325 13.6 10.725 13 10.725V15.725C13.6 15.725 14 16.125 14 16.725V17.725H10V16.725C10 16.125 10.4 15.725 11 15.725V10.725C10.4 10.725 10 10.325 10 9.725C10 9.125 10.4 8.725 11 8.725H8C8.6 8.725 9 9.125 9 9.725C9 10.325 8.6 10.725 8 10.725V15.725C8.6 15.725 9 16.125 9 16.725V17.725H5V16.725C5 16.125 5.4 15.725 6 15.725V10.725C5.4 10.725 5 10.325 5 9.725C5 9.125 5.4 8.725 6 8.725H3C2.4 8.725 2 8.325 2 7.725V6.725L11 2.225C11.6 1.925 12.4 1.925 13.1 2.225L22 6.725ZM12 3.725C11.2 3.725 10.5 4.425 10.5 5.225C10.5 6.025 11.2 6.725 12 6.725C12.8 6.725 13.5 6.025 13.5 5.225C13.5 4.425 12.8 3.725 12 3.725Z"
                                         fill="#035A4B" />
                                 </svg>
-
-
-
                             </div>
                         </div>
 
@@ -330,9 +313,6 @@
                                         d="M18 6H20C20.6 6 21 6.4 21 7V9C19.3 9 18 7.7 18 6ZM6 6H4C3.4 6 3 6.4 3 7V9C4.7 9 6 7.7 6 6ZM21 17V15C19.3 15 18 16.3 18 18H20C20.6 18 21 17.6 21 17ZM3 15V17C3 17.6 3.4 18 4 18H6C6 16.3 4.7 15 3 15Z"
                                         fill="#035A4B" />
                                 </svg>
-
-
-
                             </div>
                         </div>
 
@@ -360,7 +340,6 @@
                                         d="M3 6.5C3 5.67157 3.67157 5 4.5 5H9.5C10.3284 5 11 5.67157 11 6.5C11 7.32843 10.3284 8 9.5 8H4.5C3.67157 8 3 7.32843 3 6.5ZM3 18.5C3 17.6716 3.67157 17 4.5 17H9.5C10.3284 17 11 17.6716 11 18.5C11 19.3284 10.3284 20 9.5 20H4.5C3.67157 20 3 19.3284 3 18.5ZM2.5 11C1.67157 11 1 11.6716 1 12.5C1 13.3284 1.67157 14 2.5 14H6.5C7.32843 14 8 13.3284 8 12.5C8 11.6716 7.32843 11 6.5 11H2.5Z"
                                         fill="#035A4B" />
                                 </svg>
-
                             </div>
                         </div>
 
@@ -387,9 +366,6 @@
                                         d="M4.05423 15.1982L2.24723 13.3912C2.15505 13.299 2.08547 13.1867 2.04395 13.0632C2.00243 12.9396 1.9901 12.8081 2.00793 12.679C2.02575 12.5498 2.07325 12.4266 2.14669 12.3189C2.22013 12.2112 2.31752 12.1219 2.43123 12.0582L9.15323 8.28918C7.17353 10.3717 5.4607 12.6926 4.05423 15.1982V15.1982ZM8.80023 19.9442L10.6072 21.7512C10.6994 21.8434 10.8117 21.9129 10.9352 21.9545C11.0588 21.996 11.1903 22.0083 11.3195 21.9905C11.4486 21.9727 11.5718 21.9252 11.6795 21.8517C11.7872 21.7783 11.8765 21.6809 11.9402 21.5672L15.7092 14.8442C13.6269 16.8245 11.3061 18.5377 8.80023 19.9442V19.9442ZM7.04023 18.1832L12.5832 12.6402C12.7381 12.4759 12.8228 12.2577 12.8195 12.032C12.8161 11.8063 12.725 11.5907 12.5653 11.4311C12.4057 11.2714 12.1901 11.1803 11.9644 11.1769C11.7387 11.1736 11.5205 11.2583 11.3562 11.4132L5.81323 16.9562L7.04023 18.1832Z"
                                         fill="#035A4B" />
                                 </svg>
-
-
-
                             </div>
                         </div>
 
@@ -497,11 +473,6 @@
             </div>
         </div>
         <!-- End FAQ -->
-
-
-
-
-
     </main>
     <!-- ========== END MAIN CONTENT ========== -->
 
@@ -520,11 +491,13 @@
 
                     <!-- List -->
                     <ul class="list-unstyled list-py-1">
-                        <li><a class="link-sm link-secondary" href="https://naver.me/FYI49nk4"><i
-                                    class="bi-geo-alt-fill me-1"></i> 서울 서초구 서초중앙로20길 40 <br>
+                        <li><a class="link-sm link-secondary" href="https://naver.me/FYI49nk4" target="_blank><i
+                                    class=" bi-geo-alt-fill me-1"></i> 서울 서초구 서초중앙로20길 40 <br>
                                 301호</a></li>
                         <li><a class="link-sm link-secondary" href="tel:02-2088-2270"><i
                                     class="bi-telephone-inbound-fill me-1"></i> (02) 2088-2270</a></li>
+                        <li><a class="link-sm link-secondary" href="mailto:byndtax@naver.com"><i
+                                    class="bi bi-envelope me-1"></i> byndtax@naver.com</a></li>
                     </ul>
                     <!-- End List -->
 
@@ -541,8 +514,6 @@
                         <li><a class="link-sm link-secondary" href="./service_PA">결산 재무제표 작성</a></li>
                         <li><a class="link-sm link-secondary" href="./service_PA">감사대응</a></li>
                         <li><a class="link-sm link-secondary" href="./service_accAdvisory">회계자문</a></li>
-
-
                     </ul>
                     <!-- End List -->
 
@@ -561,13 +532,10 @@
                         <li><a class="link-sm link-secondary" href="./service_filingTaxes">상속세 및 증여세 신고</a></li>
                         <li><a class="link-sm link-secondary" href="./service_FDD">재무실사</a></li>
                         <li><a class="link-sm link-secondary" href="./service_valuation">가치평가</a></li>
-
                     </ul>
                     <!-- End List -->
-
                 </div>
                 <!-- End Col -->
-
 
                 <div class="col-sm mb-7 mb-sm-0">
                     <h5 class="mb-3">About</h5>
@@ -577,7 +545,6 @@
                         <li><a class="link-sm link-secondary" href="./about_aboutUs">About us</a></li>
                         <li><a class="link-sm link-secondary" href="./about_careers">Careers <span
                                     class="badge bg-warning text-dark rounded-pill ms-1">We're hiring</span></a></li>
-
                     </ul>
                     <!-- End List -->
                 </div>
@@ -588,8 +555,7 @@
 
                     <!-- List -->
                     <ul class="list-unstyled list-py-1 mb-0">
-                        <li><a class="link-sm link-secondary" href="./partners">Partners <i
-                                    class="bi-box-arrow-up-right small ms-1"></i></a></li>
+                        <li><a class="link-sm link-secondary" href="./partners">Partners</a></li>
                     </ul>
                     <!-- End List -->
 
@@ -598,16 +564,12 @@
                     <!-- List -->
                     <ul class="list-unstyled list-py-1 mb-0">
                         <li><a class="link-sm link-secondary" href="./article">Article</a></li>
-                        <li><a class="link-sm link-secondary" href="https://blog.naver.com/byndtax">네이버블로그</a></li>
-
+                        <li><a class="link-sm link-secondary" href="https://blog.naver.com/byndtax"
+                                target="_blank">네이버블로그 <i class="bi-box-arrow-up-right small ms-1"></i></a></li>
                     </ul>
                     <!-- End List -->
-
-
                 </div>
                 <!-- End Col -->
-
-
             </div>
             <!-- End Row -->
 
@@ -615,7 +577,6 @@
 
             <div class="row mb-7">
                 <div class="col-sm mb-3 mb-sm-0">
-
                 </div>
 
                 <div class="col-sm-auto">
@@ -623,16 +584,13 @@
                     <!-- Socials -->
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item">
-                            <a class="btn btn-soft-secondary btn-xs btn-icon" href="https://www.instagram.com/byndtax/">
+                            <a class="btn btn-soft-secondary btn-xs btn-icon" href="https://www.instagram.com/byndtax/"
+                                target="_blank">
                                 <i class="bi bi-instagram"></i>
                             </a>
                         </li>
-
-
-                        </li>
                     </ul>
                     <!-- End Socials -->
-                    
                 </div>
             </div>
 
@@ -649,10 +607,10 @@
     </footer>
     <!-- ========== END FOOTER ========== -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
     <!-- JS Global Compulsory  -->
-    <script src="./vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
     <!-- JS Implementing Plugins -->
     <script src="./vendor/hs-header/dist/hs-header.min.js"></script>
