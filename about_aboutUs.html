@@ -12,6 +12,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="./icon/logo_ico.jpg">
     <link rel="icon" href="./icon/logo_ico.jpg">
+
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -139,595 +140,70 @@
                 }
               ]
             }
-            </script>
-
-</head>
-
-<body>
-    <!-- ========== HEADER ========== -->
-    <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide"
-        data-hs-header-options='{
-      "fixMoment": 1000,
-      "fixEffect": "show-hide"
-    }'>
-        <div class="container">
-            <nav class="js-mega-menu navbar-nav-wrap">
-                <!-- Default Logo -->
-                <a class="navbar-brand" href="./index" aria-label="Front">
-                    <img class="navbar-brand-logo" src="./img/logo.png" alt="Logo">
-                </a>
-                <!-- End Default Logo -->
-
-                <!-- Toggler -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-default">
-                        <i class="bi-list"></i>
-                    </span>
-                    <span class="navbar-toggler-toggled">
-                        <i class="bi-x"></i>
-                    </span>
-                </button>
-                <!-- End Toggler -->
-
-                <!-- Collapse -->
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <div class="navbar-absolute-top-scroller">
-                        <ul class="navbar-nav">
-
-                            <!-- Service -->
-                            <li class="hs-has-sub-menu nav-item">
-                                <a id="serviceMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#"
-                                    role="button" aria-expanded="false">Service</a>
-
-                                <!-- Mega Menu -->
-                                <div class="hs-sub-menu dropdown-menu" aria-labelledby="serviceMegaMenu"
-                                    style="min-width: 14rem;">
-                                    <a class="dropdown-item " href="./service_startBusiness">사업 시작하기</a>
-                                    <div class="dropdown-divider"></div>
-
-                                    <!-- Small Business -->
-                                    <div class="hs-has-sub-menu nav-item">
-                                        <a id="smallBusinessMegaMenu"
-                                            class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#"
-                                            role="button" aria-expanded="false">중소기업</a>
-
-                                        <div class="hs-sub-menu dropdown-menu" aria-labelledby="smallBusinessMegaMenu"
-                                            style="min-width: 14rem;">
-                                            <a class="dropdown-item " href="./service_filingTaxes">법인세 신고</a>
-                                            <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item " href="./service_PA">결산재무제표 작성</a>
-                                            <a class="dropdown-item " href="./service_PA">감사대응</a>
-                                            <a class="dropdown-item " href="./service_accAdvisory">회계자문</a>
-                                        </div>
-                                    </div>
-                                    <!-- End Small Business -->
-
-                                    <!-- individual Business -->
-                                    <div class="hs-has-sub-menu nav-item">
-                                        <a id="individualBusinessMegaMenu"
-                                            class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#"
-                                            role="button" aria-expanded="false">개인사업자</a>
-
-                                        <div class="hs-sub-menu dropdown-menu"
-                                            aria-labelledby="individualBusinessMegaMenu" style="min-width: 14rem;">
-                                            <a class="dropdown-item " href="./service_filingTaxes">소득세 신고</a>
-                                            <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item " href="./service_conToCorporation">법인전환</a>
-                                        </div>
-                                    </div>
-                                    <!-- End individual Business -->
-                                    <div class="dropdown-divider"></div>
-
-                                    <a class="dropdown-item " href="./service_bookkeeping">기장대리 <span
-                                            class="badge bg-warning text-dark rounded-pill ms-1">Best
-                                            Choice</span></a></a>
-                                    <a class="dropdown-item " href="./service_filingTaxes">양도세 신고</a>
-                                    <a class="dropdown-item " href="./service_filingTaxes">상속세 및 증여세 신고</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item " href="./service_FDD">재무실사</a>
-                                    <a class="dropdown-item " href="./service_valuation">가치평가</a>
-                                </div>
-                                <!-- End Mega Menu -->
-                            </li>
-                            <!-- End Service -->
-
-                            <!-- About -->
-                            <li class="hs-has-sub-menu nav-item">
-                                <a id="aboutMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active"
-                                    href="#" role="button" aria-expanded="false">About</a>
-
-                                <!-- Mega Menu -->
-                                <div class="hs-sub-menu dropdown-menu" aria-labelledby="aboutMegaMenu"
-                                    style="min-width: 14rem;">
-                                    <a class="dropdown-item active" href="./about_aboutUs">About Us</a>
-                                    <a class="dropdown-item " href="./about_careers">Careers</a>
-                                </div>
-                                <!-- End Mega Menu -->
-                            </li>
-                            <!-- End About -->
-
-                            <!-- Partners -->
-                            <a href="./partners" class="hs-mega-menu-invoker nav-link">Partners</a>
-                            <!-- End Partners -->
-
-                            <!-- Blog -->
-                            <li class="hs-has-sub-menu nav-item">
-                                <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#"
-                                    role="button" aria-expanded="false">Blog</a>
-
-                                <!-- Mega Menu -->
-                                <div class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu"
-                                    style="min-width: 14rem;">
-                                    <a class="dropdown-item " href="./article">Article</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item " href="https://blog.naver.com/byndtax"
-                                        target="_blank">네이버블로그 <i class="bi-box-arrow-up-right small ms-1"></i></a>
-                                </div>
-                                <!-- End Mega Menu -->
-                            </li>
-                            <!-- End Blog -->
-
-                            <!-- Button -->
-                            <li class="nav-item">
-                                <a class="btn btn-primary btn-transition" href="http://pf.kakao.com/_DSIkG"
-                                    target="_blank">상담하기</a>
-                            </li>
-                            <!-- End Button -->
-                        </ul>
-                    </div>
-                </div>
-                <!-- End Collapse -->
-            </nav>
-        </div>
-    </header>
-    <!-- ========== END HEADER ========== -->
-
-    <!-- ========== MAIN CONTENT ========== -->
-    <main id="content" role="main">
-
-        <!-- Gallery -->
-        <div class="container content-space-t-3 content-space-t-lg-5">
-            <div class="w-lg-75 text-center mx-lg-auto">
-                <!-- Heading -->
-                <div class="mb-5 mb-md-10">
-                    <h1 class="display-4">About Us</h1>
-                    <p class="lead">우리의 사명은 높은 수준의 세무, 회계, 경영 자문 서비스를 통해 <br>
-                        고객의 사업이 지속적으로 성장하도록 지원하여 고객과 사회에 기여하는 것입니다.</p>
-                </div>
-                <!-- End Heading -->
-            </div>
-
-            <div class="row gx-3">
-                <div class="col mb-3">
-                    <div class="bg-img-start" style="background-image: url(./img/480x320/img17.jpg); height: 15rem;">
-                    </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-3 d-none d-md-block mb-3">
-                    <div class="bg-img-start" style="background-image: url(./img/480x320/img6.jpg); height: 15rem;">
-                    </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col mb-3">
-                    <div class="bg-img-start" style="background-image: url(./img/480x320/img14.jpg); height: 15rem;">
-                    </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="w-100"></div>
-
-                <div class="col mb-3 mb-md-0">
-                    <div class="bg-img-start" style="background-image: url(./img/480x320/img25.jpg); height: 15rem;">
-                    </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-4 d-none d-md-block mb-3 mb-md-0">
-                    <div class="bg-img-start" style="background-image: url(./img/480x320/img16.jpg); height: 15rem;">
-                    </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col">
-                    <div class="bg-img-start" style="background-image: url(./img/480x320/img12.jpg); height: 15rem;">
-                    </div>
-                </div>
-                <!-- End Col -->
-            </div>
-            <!-- End Row -->
-        </div>
-        <!-- End Gallery -->
-
-        <!-- Info -->
-        <div class="container content-space-2 content-space-lg-3">
-            <div class="row justify-content-lg-between">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="bg-img-start" style="background-image: url(./img/480x320/img17.jpg); height: 15rem;">
-                    </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-lg-6">
-                    <h2>세무서비스, 그 이상의 가치<br>
-                        Beyond Tax Service
-                    </h2>
-                    <p>우리는 기존의 부가가치세 신고 중심의 <br>
-                        단순 기장에서 벗어나 회계기준에 따른 <br>
-                        기장, 재무분석 서비스를 포함한 추가적인 <br>
-                        가치를 제공하며 고객의 비즈니스 성장을 <br>
-                        돕고 있습니다.
-                    </p>
-                </div>
-                <!-- End Col -->
-            </div>
-            <!-- End Row -->
-        </div>
-        <!-- End Info -->
-
-        <!-- Info -->
-        <div class="container content-space-1 content-space-lg-2">
-            <div class="row justify-content-lg-between">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="bg-img-start" style="background-image: url(./img/480x320/img6.jpg); height: 15rem;">
-                    </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-lg-6">
-                    <h2>통합된 데이터를 통한 <br>
-                        통찰력의 제공<br>
-                        Combined data for <br>
-                        valuable insights
-                    </h2>
-                    <p>우리는 과거 데이터를 통합하여 고객의 <br>
-                        미래에 대한 통찰력을 제공합니다.
-                    </p>
-                </div>
-                <!-- End Col -->
-            </div>
-            <!-- End Row -->
-        </div>
-        <!-- End Info -->
-
-        <!-- Info -->
-        <div class="container content-space-1 content-space-lg-2">
-            <div class="row justify-content-lg-between">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="bg-img-start" style="background-image: url(./img/480x320/img12.jpg); height: 15rem;">
-                    </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-lg-6">
-                    <h2>우리의 약속은, <br>
-                        고객의 성공과 <br>
-                        함께 하는 것입니다.<br>
-                        Our commitment is to bind with customer success.
-                    </h2>
-                    <p>끊임없는 혁신, 고객중심 가치를 실현하며 <br>
-                        더 나은 미래를 향해 나아갑니다.
-                    </p>
-                </div>
-                <!-- End Col -->
-            </div>
-            <!-- End Row -->
-        </div>
-        <!-- End Info -->
-    </main>
-    <!-- ========== END MAIN CONTENT ========== -->
-
-    <!-- Content -->
-    <div class="container content-space-2 content-space-lg-3">
-        <div class="row">
-            <div class="col-lg-5 mb-5 mb-lg-0">
-                <!-- Sticky Block -->
-                <div id="stickyBlockStartPoint">
-                    <div class="js-sticky-block" data-hs-sticky-block-options='{
-                   "parentSelector": "#stickyBlockStartPoint",
-                   "targetSelector": "#header",
-                   "startPoint": "#stickyBlockStartPoint",
-                   "endPoint": "#stickyBlockEndPoint",
-                   "stickyOffsetTop": 80
-                 }'>
-                        <h2>대표 소개</h2>
-
-                        <h3 class="mt-5 mb-5">임지훈</h3>
-                        <p>한국공인회계사</p>
-
-                        <p class="mt-5"><b>Specialty</b></p>
-                        <li>All Industry</li>
-                        <li>Valuation Specialist</li>
-                        <li>금융감독원 면접위원</li>
-
-                        <p class="mt-5"><b>Career</b></p>
-                        <li>바인드회계세무 대표 (2024~)</li>
-                        <li>BDO 성현회계법인 | FDD, Valuation, Team Leader (2022~2023)</li>
-                        <li>애그리게이터사 | CFO (2022)</li>
-                        <li>KPMG 삼정회계법인 | M&A, Valuation (2021~2022)</li>
-                        <li>PwC 삼일회계법인 | Assurance, Valuation (2014~2021)</li>
-                        </ul>
-
-                        <p>Valuation Specialist (삼일, 삼정)</p>
-                        <p class="mt-5"><b>다양한 산업 회계 및 세무 경험</b></p>
-                        <li>제조업(음식료품, 내화물, 신문용지, 보안솔루션, IT 등)</li>
-                        <li>도소매업</li>
-                        <li>건설업</li>
-                        <li>부동산임대업</li>
-                        <li>전자상거래업</li>
-                        <li>은행업</li>
-                        <li>증권업</li>
-                        <li>생명보험업 외 다수</li>
-
-                        <p class="mt-5"><b>M&A 및 가치평가, 재무실사 업무 수행</b></p>
-                        <li>매도측 및 매수측 M&A 자문사 참여 </li>
-                        <li>삼일회계법인 및 삼정회계법인 Valuation Reviewer</li>
-                        <li>PPA (인수가격배분)</li>
-                        <li>손상검토</li>
-                        <li>비상장주식 평가</li>
-                        <li>인수가격 분석</li>
-                        <li>기술가치 평가</li>
-                        <li>파생상품 평가 (전환사채, 신주인수권부사채, 주식선택권 등)</li>
-                        <li>재무실사</li>
-
-                        <p class="mt-5"><b>업무 관련 주요 클라이언트</b></p>
-                        <li>유통/소비재
-                            <p>스타벅스커피코리아, 스타필드, 롯데지주, 메드트로닉코리아, SAMT, 한국금거래소 등</p>
-                        </li>
-                        
-                        <li>제조/건설/조선
-                            <p>삼성엔지니어링, 롯데건설, 오리온, 금호석유화학, 롯데알미늄, 인천공항시설관리, 한솔씨앤피 등</p>
-                        </li>
-                        
-                        <li>방송/통신/게임
-                            <p>하이브, 와이지인베스트먼트, 에넥스텔레콤 등</p>
-                        </li>
-                        
-                        <li>IT/플랫폼/4차 산업
-                            <p>두나무, 아이티센, 쌍용정보통신, 콤텍시스템 등</p>
-                        </li>
-                        
-                        <li>바이오/헬스케어
-                            <p>HLB글로벌, 코렌텍, 엠지메드 등</p>
-                        </li>
-                        
-                        <li>금융
-                            <p>기업은행,  삼성생명보험, 삼성카드, 한화투자증권, 대신증권, 흥국생명, 현대기술투자, 처브라이프생명보험, 흥국자산운용 등</p>
-                        </li>
-                        
-                        <li>중앙회, 재단
-                            <p>중소기업중앙회, 삼성복지재단 등</p>
-
-                    </div>
-                </div>
-                <!-- End Sticky Block -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-lg-7">
-                <div class="mb-3 mb-sm-5">
-                    <img class="img-fluid rounded-2" src="./img/700x900/11_700.png" alt="Image Description">
-                </div>
-
-            </div>
-            <!-- End Col -->
-        </div>
-        <!-- End Row -->
-    </div>
-    <!-- End Content -->
-
-    <!-- ========== FOOTER ========== -->
-    <footer class="bg-light">
-        <div class="container pb-1 pb-lg-7">
-            <div class="row content-space-t-2">
-                <div class="col-lg-3 mb-7 mb-lg-0">
-                    <!-- Logo -->
-                    <div class="mb-5">
-                        <a class="navbar-brand" href="./index" aria-label="Space">
-                            <img class="navbar-brand-logo" src="./img/logo.png" alt="Image Description">
-                        </a>
-                    </div>
-                    <!-- End Logo -->
-
-                    <!-- List -->
-                    <ul class="list-unstyled list-py-1">
-                        <li><a class="link-sm link-secondary" href="https://naver.me/FYI49nk4" target="_blank"><i
-                                    class="bi-geo-alt-fill me-1"></i> 서울 서초구 서초중앙로20길 40 <br>
-                                301호</a></li>
-                        <li><a class="link-sm link-secondary" href="tel:02-2088-2270"><i
-                                    class="bi-telephone-inbound-fill me-1"></i> (02) 2088-2270</a></li>
-                        <li><a class="link-sm link-secondary" href="mailto:byndtax@naver.com"><i
-                                    class="bi bi-envelope me-1"></i> byndtax@naver.com</a></li>
-                    </ul>
-                    <!-- End List -->
-                </div>
-                <!-- End Col -->
-
-                <div class="col-sm">
-                    <h5 class="mb-3">Service</h5>
-
-                    <!-- List -->
-                    <ul class="list-unstyled list-py-1 mb-5">
-                        <li><a class="link-sm link-secondary" href="./service_startBusiness">사업 시작하기</a></li>
-                        <li><a class="link-sm link-secondary" href="./service_filingTaxes">법인세 신고</a></li>
-                        <li><a class="link-sm link-secondary" href="./service_PA">결산 재무제표 작성</a></li>
-                        <li><a class="link-sm link-secondary" href="./service_PA">감사대응</a></li>
-                        <li><a class="link-sm link-secondary" href="./service_accAdvisory">회계자문</a></li>
-                    </ul>
-                    <!-- End List -->
-
-                </div>
-                <!-- End Col -->
-
-                <div class="col-sm">
-
-                    <!-- List -->
-                    <ul class="list-unstyled list-py-1 mb-5 ">
-                        <li><a class="link-sm link-secondary" href="./service_filingTaxes">소득세 신고</a></li>
-                        <li><a class="link-sm link-secondary" href="./service_conToCorporation">법인전환</a></li>
-                        <li><a class="link-sm link-secondary" href="./service_bookkeeping">기장대리 <span
-                                    class="badge bg-warning text-dark rounded-pill ms-1">Best Choice</span></a></li>
-                        <li><a class="link-sm link-secondary" href="./service_filingTaxes">양도세 신고</a></li>
-                        <li><a class="link-sm link-secondary" href="./service_filingTaxes">상속세 및 증여세 신고</a></li>
-                        <li><a class="link-sm link-secondary" href="./service_FDD">재무실사</a></li>
-                        <li><a class="link-sm link-secondary" href="./service_valuation">가치평가</a></li>
-                    </ul>
-                    <!-- End List -->
-
-                </div>
-                <!-- End Col -->
-
-                <div class="col-sm mb-7 mb-sm-0">
-                    <h5 class="mb-3">About</h5>
-
-                    <!-- List -->
-                    <ul class="list-unstyled list-py-1 mb-0">
-                        <li><a class="link-sm link-secondary" href="./about_aboutUs">About us</a></li>
-                        <li><a class="link-sm link-secondary" href="./about_careers">Careers</a></li>
-                    </ul>
-                    <!-- End List -->
-                </div>
-                <!-- End Col -->
-
-                <div class="col-sm mb-7 mb-sm-0">
-                    <h5 class="mb-3">Partners</h5>
-
-                    <!-- List -->
-                    <ul class="list-unstyled list-py-1 mb-0">
-                        <li><a class="link-sm link-secondary" href="./partners">Partners</a></li>
-                    </ul>
-                    <!-- End List -->
-
-                    <h5 class="mt-5 mb-3">Blog</h5>
-
-                    <!-- List -->
-                    <ul class="list-unstyled list-py-1 mb-0">
-                        <li><a class="link-sm link-secondary" href="./article">Article</a></li>
-                        <li><a class="link-sm link-secondary" href="https://blog.naver.com/byndtax"
-                                target="_blank">네이버블로그 <i class="bi-box-arrow-up-right small ms-1"></i></a></li>
-                    </ul>
-                    <!-- End List -->
-                </div>
-                <!-- End Col -->
-            </div>
-            <!-- End Row -->
-
-            <div class="border-top my-7"></div>
-
-            <div class="row mb-7">
-                <!-- Socials -->
-                <div class="col-sm mb-3 mb-sm-0">
-                    <ul class="list-inline list-separator mb-0">
-                        <li class="list-inline-item">바인드회계세무사무소</li>
-                        <li class="list-inline-item">회계 세무 대리 자문, 기장 및 세금 신고</li>
-                        <li class="list-inline-item">대표자: 임지훈</li>
-                        <li class="list-inline-item">사업자등록번호: 102-30-08455</li>
-                    </ul>
-                </div>
-                <!-- End Socials -->
-
-                <div class="col-sm-auto">
-                    <!-- Socials -->
-                    <ul class="list-inline mb-0">
-                        <li class="list-inline-item">
-                            <a class="btn btn-soft-secondary btn-xs btn-icon" href="https://www.instagram.com/byndtax/"
-                                target="_blank">
-                                <i class="bi bi-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- End Socials -->
-                </div>
-            </div>
-
-            <!-- Copyright -->
-            <div class="w-md-85 text-lg-center mx-lg-auto">
-                <p class="text-muted small">&copy; BYND Accounting and Tax. 2024. All rights reserved.</p>
-                <p class="text-muted small">When you visit or interact with our sites, services or tools, we or our
-                    authorised service providers may use cookies for storing information to help provide you with a
-                    better,
-                    faster and safer experience and for marketing purposes.</p>
-            </div>
-            <!-- End Copyright -->
-        </div>
-    </footer>
-    <!-- ========== END FOOTER ========== -->
-
-    <!-- JS Global Compulsory  -->
-    <script src="./vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- JS Implementing Plugins -->
-    <script src="./vendor/hs-header/dist/hs-header.min.js"></script>
-    <script src="./vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
-    <script src="./vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
-    <script src="./vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-    <script src="./vendor/aos/dist/aos.js"></script>
-    <script src="./vendor/typed.js/lib/typed.min.js"></script>
-    <script src="./vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!-- JS Front -->
-    <script src="./js/theme.min.js"></script>
-
-    <!-- JS Plugins Init. -->
+    </script>
     <script>
-        (function () {
-            // INITIALIZATION OF HEADER
-            // =======================================================
-            new HSHeader('#header').init()
+        function includeHTML(callback) {
+            var z, i, elmnt, file, xhttp;
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                file = elmnt.getAttribute("include-html");
+                if (file) {
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+                            if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
+                            elmnt.removeAttribute("include-html");
+                            includeHTML(callback);
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    return;
+                }
+            }
+            if (callback) callback();
+        }
 
+        function initScripts() {
+            // INITIALIZATION OF HEADER
+            new HSHeader('#header').init();
 
             // INITIALIZATION OF MEGA MENU
-            // =======================================================
             new HSMegaMenu('.js-mega-menu', {
                 desktop: {
                     position: 'left'
                 }
-            })
-
+            });
 
             // INITIALIZATION OF SHOW ANIMATIONS
-            // =======================================================
-            new HSShowAnimation('.js-animation-link')
-
+            new HSShowAnimation('.js-animation-link');
 
             // INITIALIZATION OF BOOTSTRAP VALIDATION
-            // =======================================================
             HSBsValidation.init('.js-validate', {
                 onSubmit: data => {
-                    data.event.preventDefault()
-                    alert('Submited')
+                    data.event.preventDefault();
+                    alert('Submitted');
                 }
-            })
-
+            });
 
             // INITIALIZATION OF BOOTSTRAP DROPDOWN
-            // =======================================================
-            HSBsDropdown.init()
-
+            HSBsDropdown.init();
 
             // INITIALIZATION OF GO TO
-            // =======================================================
-            new HSGoTo('.js-go-to')
-
+            new HSGoTo('.js-go-to');
 
             // INITIALIZATION OF AOS
-            // =======================================================
             AOS.init({
                 duration: 650,
                 once: true
             });
 
-
             // INITIALIZATION OF TEXT ANIMATION (TYPING)
-            // =======================================================
-            HSCore.components.HSTyped.init('.js-typedjs')
-
+            HSCore.components.HSTyped.init('.js-typedjs');
 
             // INITIALIZATION OF SWIPER
-            // =======================================================
             var sliderThumbs = new Swiper('.js-swiper-thumbs', {
                 watchSlidesVisibility: true,
                 watchSlidesProgress: true,
@@ -749,7 +225,7 @@
                 on: {
                     'afterInit': function (swiper) {
                         swiper.el.querySelectorAll('.js-swiper-pagination-progress-body-helper')
-                            .forEach($progress => $progress.style.transitionDuration = `${swiper.params.autoplay.delay}ms`)
+                            .forEach($progress => $progress.style.transitionDuration = `${swiper.params.autoplay.delay}ms`);
                     }
                 }
             });
@@ -761,12 +237,539 @@
                 thumbs: {
                     swiper: sliderThumbs
                 }
-            })
-        })()
+            });
+
+            // INITIALIZATION OF TOGGLE SWITCH
+            new HSToggleSwitch('.js-toggle-switch');
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            includeHTML(initScripts);
+        });
     </script>
+</head>
 
+<body>
+    <div include-html="header"></div>
 
+    <main id="content" role="main">
+        <!-- 메인 콘텐츠 여기에 삽입 -->
+        <!DOCTYPE html>
+        <html lang="ko">
 
+        <head>
+            <!-- Required Meta Tags Always Come First -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+            <!-- Title -->
+            <title>바인드회계세무 - 세무사를 찾으시나요? 세금 신고 및 기장 대리, 전문 세무 회계 서비스</title>
+
+            <!-- Favicon -->
+            <link rel="shortcut icon" href="./icon/logo_ico.jpg">
+            <link rel="icon" href="./icon/logo_ico.jpg">
+
+            <!-- Font -->
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+                rel="stylesheet">
+
+            <!-- CSS Implementing Plugins -->
+            <link rel="stylesheet" href="./vendor/bootstrap-icons/font/bootstrap-icons.css">
+            <link rel="stylesheet" href="./vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+            <link rel="stylesheet" href="./vendor/aos/dist/aos.css">
+            <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css">
+
+            <!-- CSS Front Template -->
+            <link rel="stylesheet" href="./css/theme.min.css">
+            <link rel="stylesheet" href="style.css">
+
+            <!-- Meta -->
+            <meta name="naver-site-verification" content="f2785c15ee3284af063cd4d5a0d047f89597654f" />
+            <meta name="description"
+                content="바인드회계세무: 서울에 위치한 신뢰받는 회계 세무 사무소. 기장, 부가가치세 신고, 법인세 신고, 소득세 신고 등 다양한 회계 및 세무 서비스를 제공합니다.">
+            <meta property="og:type" content="website">
+            <meta property="og:title" content="바인드회계세무 - 세무사를 찾으시나요? 세금 신고 및 기장 대리, 전문 세무 회계 서비스">
+            <meta property="og:description" content="바인드회계세무 - 세무사를 찾으시나요? 세금 신고 및 기장 대리, 전문 세무 회계 서비스">
+            <meta property="og:image" content="https://www.byndtax.com/img/logo.png">
+            <meta property="og:url" content="https://www.byndtax.com/">
+            <meta name="publisher" content="바인드회계세무">
+            <meta name="author" content="바인드회계세무">
+            <meta name="robots" content="all">
+
+            <!-- script -->
+            <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "ItemList",
+          "itemListElement":[
+            {
+              "@type": "ListItem",
+              "item": {
+                "@type": "Organization",
+                "name": "기장 대리",
+                "image": "https://www.byndtax.com/img/160x160/img9.jpg",
+                "url": "https://www.byndtax.com/service_bookkeeping"
+              },
+              "position": "1"
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@type": "Organization",
+                "name": "세금 신고",
+                "image": "https://www.byndtax.com/img/160x160/img4.jpg",
+                "url": "https://www.byndtax.com/service_filingTaxes"
+              },
+              "position": "2"
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@type": "Organization",
+                "name": "결산 지원",
+                "image": "https://www.byndtax.com/img/160x160/img8.jpg",
+                "url": "https://www.byndtax.com/service_PA"
+              },
+              "position": "3"
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@type": "Organization",
+                "name": "가치 평가",
+                "image": "https://www.byndtax.com/img/160x160/img5.jpg",
+                "url": "https://www.byndtax.com/service_valuation"
+              },
+              "position": "4"
+            },
+          ]
+        }
+        </script>
+            <script type="application/ld+json">
+        {
+         "@context": "http://schema.org",
+         "@type": "Organization",
+         "name": "바인드 회계 세무",
+         "url": "https://www.byndtax.com",
+         "sameAs": [
+           "https://blog.naver.com/byndtax",
+           "https://www.instagram.com/byndtax"
+         ]
+        }
+        </script>
+            <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "바인드 회계 세무",
+          "address": {
+            "@type": "PostalAddress",
+            "postalCode": "06634",
+            "addressRegion": "서울",
+            "addressLocality": "서초구",
+            "streetAddress": "서초중앙로20길 40"
+          }
+        }
+        </script>
+            <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "오픈이벤트 혜택이 있나요?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "오픈이벤트로 정가의 20% 할인을 제공합니다."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "그 외의 혜택은 없나요?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "지금 연락주시면 특별한 혜택을 대표님에게만 제공드립니다."
+                  }
+                }
+              ]
+            }
+    </script>
+            <script>
+                function includeHTML(callback) {
+                    var z, i, elmnt, file, xhttp;
+                    z = document.getElementsByTagName("*");
+                    for (i = 0; i < z.length; i++) {
+                        elmnt = z[i];
+                        file = elmnt.getAttribute("include-html");
+                        if (file) {
+                            xhttp = new XMLHttpRequest();
+                            xhttp.onreadystatechange = function () {
+                                if (this.readyState == 4) {
+                                    if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+                                    if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
+                                    elmnt.removeAttribute("include-html");
+                                    includeHTML(callback);
+                                }
+                            }
+                            xhttp.open("GET", file, true);
+                            xhttp.send();
+                            return;
+                        }
+                    }
+                    if (callback) callback();
+                }
+
+                function initScripts() {
+                    // INITIALIZATION OF HEADER
+                    new HSHeader('#header').init();
+
+                    // INITIALIZATION OF MEGA MENU
+                    new HSMegaMenu('.js-mega-menu', {
+                        desktop: {
+                            position: 'left'
+                        }
+                    });
+
+                    // INITIALIZATION OF SHOW ANIMATIONS
+                    new HSShowAnimation('.js-animation-link');
+
+                    // INITIALIZATION OF BOOTSTRAP VALIDATION
+                    HSBsValidation.init('.js-validate', {
+                        onSubmit: data => {
+                            data.event.preventDefault();
+                            alert('Submitted');
+                        }
+                    });
+
+                    // INITIALIZATION OF BOOTSTRAP DROPDOWN
+                    HSBsDropdown.init();
+
+                    // INITIALIZATION OF GO TO
+                    new HSGoTo('.js-go-to');
+
+                    // INITIALIZATION OF AOS
+                    AOS.init({
+                        duration: 650,
+                        once: true
+                    });
+
+                    // INITIALIZATION OF TEXT ANIMATION (TYPING)
+                    HSCore.components.HSTyped.init('.js-typedjs');
+
+                    // INITIALIZATION OF SWIPER
+                    var sliderThumbs = new Swiper('.js-swiper-thumbs', {
+                        watchSlidesVisibility: true,
+                        watchSlidesProgress: true,
+                        history: false,
+                        breakpoints: {
+                            480: {
+                                slidesPerView: 2,
+                                spaceBetween: 15,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                                spaceBetween: 15,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 15,
+                            },
+                        },
+                        on: {
+                            'afterInit': function (swiper) {
+                                swiper.el.querySelectorAll('.js-swiper-pagination-progress-body-helper')
+                                    .forEach($progress => $progress.style.transitionDuration = `${swiper.params.autoplay.delay}ms`);
+                            }
+                        }
+                    });
+
+                    var sliderMain = new Swiper('.js-swiper-main', {
+                        effect: 'fade',
+                        autoplay: true,
+                        loop: true,
+                        thumbs: {
+                            swiper: sliderThumbs
+                        }
+                    });
+
+                    // INITIALIZATION OF TOGGLE SWITCH
+                    new HSToggleSwitch('.js-toggle-switch');
+                }
+
+                document.addEventListener("DOMContentLoaded", function () {
+                    includeHTML(initScripts);
+                });
+            </script>
+        </head>
+
+        <body>
+            <div include-html="header"></div>
+
+            <main id="content" role="main">
+                <!-- 메인 콘텐츠 여기에 삽입 -->
+                <!-- Gallery -->
+                <div class="container content-space-t-3 content-space-t-lg-5">
+                    <div class="w-lg-75 text-center mx-lg-auto">
+                        <!-- Heading -->
+                        <div class="mb-5 mb-md-10">
+                            <h1 class="display-4">About Us</h1>
+                            <p class="lead">우리의 사명은 높은 수준의 세무, 회계, 경영 자문 서비스를 통해 <br>
+                                고객의 사업이 지속적으로 성장하도록 지원하여 고객과 사회에 기여하는 것입니다.</p>
+                        </div>
+                        <!-- End Heading -->
+                    </div>
+
+                    <div class="row gx-3">
+                        <div class="col mb-3">
+                            <div class="bg-img-start"
+                                style="background-image: url(./img/480x320/img17.jpg); height: 15rem;">
+                            </div>
+                        </div>
+                        <!-- End Col -->
+
+                        <div class="col-3 d-none d-md-block mb-3">
+                            <div class="bg-img-start"
+                                style="background-image: url(./img/480x320/img6.jpg); height: 15rem;">
+                            </div>
+                        </div>
+                        <!-- End Col -->
+
+                        <div class="col mb-3">
+                            <div class="bg-img-start"
+                                style="background-image: url(./img/480x320/img14.jpg); height: 15rem;">
+                            </div>
+                        </div>
+                        <!-- End Col -->
+
+                        <div class="w-100"></div>
+
+                        <div class="col mb-3 mb-md-0">
+                            <div class="bg-img-start"
+                                style="background-image: url(./img/480x320/img25.jpg); height: 15rem;">
+                            </div>
+                        </div>
+                        <!-- End Col -->
+
+                        <div class="col-4 d-none d-md-block mb-3 mb-md-0">
+                            <div class="bg-img-start"
+                                style="background-image: url(./img/480x320/img16.jpg); height: 15rem;">
+                            </div>
+                        </div>
+                        <!-- End Col -->
+
+                        <div class="col">
+                            <div class="bg-img-start"
+                                style="background-image: url(./img/480x320/img12.jpg); height: 15rem;">
+                            </div>
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Gallery -->
+
+                <!-- Info -->
+                <div class="container content-space-2 content-space-lg-3">
+                    <div class="row justify-content-lg-between">
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <div class="bg-img-start"
+                                style="background-image: url(./img/480x320/img17.jpg); height: 15rem;">
+                            </div>
+                        </div>
+                        <!-- End Col -->
+
+                        <div class="col-lg-6">
+                            <h2>세무서비스, 그 이상의 가치<br>
+                                Beyond Tax Service
+                            </h2>
+                            <p>우리는 기존의 부가가치세 신고 중심의 <br>
+                                단순 기장에서 벗어나 회계기준에 따른 <br>
+                                기장, 재무분석 서비스를 포함한 추가적인 <br>
+                                가치를 제공하며 고객의 비즈니스 성장을 <br>
+                                돕고 있습니다.
+                            </p>
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Info -->
+
+                <!-- Info -->
+                <div class="container content-space-1 content-space-lg-2">
+                    <div class="row justify-content-lg-between">
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <div class="bg-img-start"
+                                style="background-image: url(./img/480x320/img6.jpg); height: 15rem;">
+                            </div>
+                        </div>
+                        <!-- End Col -->
+
+                        <div class="col-lg-6">
+                            <h2>통합된 데이터를 통한 <br>
+                                통찰력의 제공<br>
+                                Combined data for <br>
+                                valuable insights
+                            </h2>
+                            <p>우리는 과거 데이터를 통합하여 고객의 <br>
+                                미래에 대한 통찰력을 제공합니다.
+                            </p>
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Info -->
+
+                <!-- Info -->
+                <div class="container content-space-1 content-space-lg-2">
+                    <div class="row justify-content-lg-between">
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <div class="bg-img-start"
+                                style="background-image: url(./img/480x320/img12.jpg); height: 15rem;">
+                            </div>
+                        </div>
+                        <!-- End Col -->
+
+                        <div class="col-lg-6">
+                            <h2>우리의 약속은, <br>
+                                고객의 성공과 <br>
+                                함께 하는 것입니다.<br>
+                                Our commitment is to bind with customer success.
+                            </h2>
+                            <p>끊임없는 혁신, 고객중심 가치를 실현하며 <br>
+                                더 나은 미래를 향해 나아갑니다.
+                            </p>
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Info -->
+            </main>
+            <!-- ========== END MAIN CONTENT ========== -->
+
+            <!-- Content -->
+            <div class="container content-space-2 content-space-lg-3">
+                <div class="row">
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <!-- Sticky Block -->
+                        <div id="stickyBlockStartPoint">
+                            <div class="js-sticky-block" data-hs-sticky-block-options='{
+                   "parentSelector": "#stickyBlockStartPoint",
+                   "targetSelector": "#header",
+                   "startPoint": "#stickyBlockStartPoint",
+                   "endPoint": "#stickyBlockEndPoint",
+                   "stickyOffsetTop": 80
+                 }'>
+                                <h2>대표 소개</h2>
+
+                                <h3 class="mt-5 mb-5">임지훈</h3>
+                                <p>한국공인회계사</p>
+
+                                <p class="mt-5"><b>Specialty</b></p>
+                                <li>All Industry</li>
+                                <li>Valuation Specialist</li>
+                                <li>금융감독원 면접위원</li>
+
+                                <p class="mt-5"><b>Career</b></p>
+                                <li>바인드회계세무 대표 (2024~)</li>
+                                <li>BDO 성현회계법인 | FDD, Valuation, Team Leader (2022~2023)</li>
+                                <li>애그리게이터사 | CFO (2022)</li>
+                                <li>KPMG 삼정회계법인 | M&A, Valuation (2021~2022)</li>
+                                <li>PwC 삼일회계법인 | Assurance, Valuation (2014~2021)</li>
+                                </ul>
+
+                                <p>Valuation Specialist (삼일, 삼정)</p>
+                                <p class="mt-5"><b>다양한 산업 회계 및 세무 경험</b></p>
+                                <li>제조업(음식료품, 내화물, 신문용지, 보안솔루션, IT 등)</li>
+                                <li>도소매업</li>
+                                <li>건설업</li>
+                                <li>부동산임대업</li>
+                                <li>전자상거래업</li>
+                                <li>은행업</li>
+                                <li>증권업</li>
+                                <li>생명보험업 외 다수</li>
+
+                                <p class="mt-5"><b>M&A 및 가치평가, 재무실사 업무 수행</b></p>
+                                <li>매도측 및 매수측 M&A 자문사 참여 </li>
+                                <li>삼일회계법인 및 삼정회계법인 Valuation Reviewer</li>
+                                <li>PPA (인수가격배분)</li>
+                                <li>손상검토</li>
+                                <li>비상장주식 평가</li>
+                                <li>인수가격 분석</li>
+                                <li>기술가치 평가</li>
+                                <li>파생상품 평가 (전환사채, 신주인수권부사채, 주식선택권 등)</li>
+                                <li>재무실사</li>
+
+                                <p class="mt-5"><b>업무 관련 주요 클라이언트</b></p>
+                                <li>유통/소비재
+                                    <p>스타벅스커피코리아, 스타필드, 롯데지주, 메드트로닉코리아, SAMT, 한국금거래소 등</p>
+                                </li>
+
+                                <li>제조/건설/조선
+                                    <p>삼성엔지니어링, 롯데건설, 오리온, 금호석유화학, 롯데알미늄, 인천공항시설관리, 한솔씨앤피 등</p>
+                                </li>
+
+                                <li>방송/통신/게임
+                                    <p>하이브, 와이지인베스트먼트, 에넥스텔레콤 등</p>
+                                </li>
+
+                                <li>IT/플랫폼/4차 산업
+                                    <p>두나무, 아이티센, 쌍용정보통신, 콤텍시스템 등</p>
+                                </li>
+
+                                <li>바이오/헬스케어
+                                    <p>HLB글로벌, 코렌텍, 엠지메드 등</p>
+                                </li>
+
+                                <li>금융
+                                    <p>기업은행, 삼성생명보험, 삼성카드, 한화투자증권, 대신증권, 흥국생명, 현대기술투자, 처브라이프생명보험, 흥국자산운용 등</p>
+                                </li>
+
+                                <li>중앙회, 재단
+                                    <p>중소기업중앙회, 삼성복지재단 등</p>
+
+                            </div>
+                        </div>
+                        <!-- End Sticky Block -->
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-lg-7">
+                        <div class="mb-3 mb-sm-5">
+                            <img class="img-fluid rounded-2" src="./img/700x900/11_700.png" alt="Image Description">
+                        </div>
+
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Content -->
+    </main>
+
+    <div include-html="footer"></div>
+
+    <!-- JS Global Compulsory -->
+    <script src="./vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <script src="./vendor/hs-header/dist/hs-header.min.js"></script>
+    <script src="./vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="./vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+    <script src="./vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+    <script src="./vendor/aos/dist/aos.js"></script>
+    <script src="./vendor/typed.js/lib/typed.min.js"></script>
+    <script src="./vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="./vendor/hs-toggle-switch/dist/hs-toggle-switch.min.js"></script>
+
+    <!-- JS Front -->
+    <script src="./js/theme.min.js"></script>
 </body>
 
 </html>
