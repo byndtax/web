@@ -1,12 +1,22 @@
 {
     "articles": [
         {
+            "title": "도소매업의 부가가치세 실무에 대해 알아보세요",
+            "description": "도소매업의 부가가치세 과세 대상, 공급시기, 세금계산서 발행, 신고 및 납부 절차, 환급 절차 등에 대해 알아보세요.",
+            "image": "./article/img/500x280/240620/img1.webp",
+            "link": "./article/240620.html",
+            "date": "June 24"
+        },
+        {
             "title": "아파트 회계감사란 무엇인가요?",
             "description": "아파트 회계감사는 공동주택 관리의 투명성과 신뢰성을 확보하기 위해 외부 감사인이 아파트 관리 주체의 재무제표를 검토하고 평가하는 과정을 말합니다.",
             "image": "./article/img/500x280/240619/img1.webp",
             "link": "./article/240619.html",
             "date": "June 19"
         }
+        
+        
+
     ],
     "articlesPerPage": 6
 }

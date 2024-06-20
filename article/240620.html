@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>도소매업의 부가가치세 실무 - 바인드회계세무</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../icon/logo_ico.jpg">
+    <link rel="icon" href="../icon/logo_ico.jpg">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="../vendor/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+    <link rel="stylesheet" href="../vendor/aos/dist/aos.css">
+    <link rel="stylesheet" href="../vendor/swiper/swiper-bundle.min.css">
+
+    <!-- CSS Front Template -->
+    <link rel="stylesheet" href="../css/theme.min.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Meta -->
+    <meta name="naver-site-verification" content="f2785c15ee3284af063cd4d5a0d047f89597654f" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="도소매업의 부가가치세 실무 - 바인드회계세무">
+    <meta name="description" content="도소매업의 부가가치세 과세 대상, 공급시기, 세금계산서 발행, 신고 및 납부 절차, 환급 혜택 등에 대해 알아보세요.">
+    <meta property="og:image" content="https://www.byndtax.com/img/logo.png">
+    <meta property="og:url" content="https://www.byndtax.com/">
+    <meta name="publisher" content="바인드회계세무">
+    <meta name="author" content="바인드회계세무">
+    <meta name="robots" content="all">
+
+    <!-- script -->
+    <script>
+        function includeHTML(callback) {
+            var z, i, elmnt, file, xhttp;
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                file = elmnt.getAttribute("include-html");
+                if (file) {
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+                            if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
+                            elmnt.removeAttribute("include-html");
+                            includeHTML(callback);
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    return;
+                }
+            }
+            if (callback) callback();
+        }
+
+        function initScripts() {
+            // INITIALIZATION OF HEADER
+            new HSHeader('#header').init();
+
+            // INITIALIZATION OF MEGA MENU
+            new HSMegaMenu('.js-mega-menu', {
+                desktop: {
+                    position: 'left'
+                }
+            });
+
+            // INITIALIZATION OF SHOW ANIMATIONS
+            new HSShowAnimation('.js-animation-link');
+
+            // INITIALIZATION OF BOOTSTRAP VALIDATION
+            HSBsValidation.init('.js-validate', {
+                onSubmit: data => {
+                    data.event.preventDefault();
+                    alert('Submitted');
+                }
+            });
+
+            // INITIALIZATION OF BOOTSTRAP DROPDOWN
+            HSBsDropdown.init();
+
+            // INITIALIZATION OF GO TO
+            new HSGoTo('.js-go-to');
+
+            // INITIALIZATION OF AOS
+            AOS.init({
+                duration: 650,
+                once: true
+            });
+
+            // INITIALIZATION OF TEXT ANIMATION (TYPING)
+            HSCore.components.HSTyped.init('.js-typedjs');
+
+            // INITIALIZATION OF SWIPER
+            var sliderThumbs = new Swiper('.js-swiper-thumbs', {
+                watchSlidesVisibility: true,
+                watchSlidesProgress: true,
+                history: false,
+                breakpoints: {
+                    480: {
+                        slidesPerView: 2,
+                        spaceBetween: 15,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: 15,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 15,
+                    },
+                },
+                on: {
+                    'afterInit': function (swiper) {
+                        swiper.el.querySelectorAll('.js-swiper-pagination-progress-body-helper')
+                            .forEach($progress => $progress.style.transitionDuration = `${swiper.params.autoplay.delay}ms`);
+                    }
+                }
+            });
+
+            var sliderMain = new Swiper('.js-swiper-main', {
+                effect: 'fade',
+                autoplay: true,
+                loop: true,
+                thumbs: {
+                    swiper: sliderThumbs
+                }
+            });
+
+            // INITIALIZATION OF TOGGLE SWITCH
+            new HSToggleSwitch('.js-toggle-switch');
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            includeHTML(initScripts);
+        });
+    </script>
+</head>
+
+<body>
+    <div include-html="./header"></div>
+
+    <main id="content" role="main">
+        <!-- 메인 콘텐츠 여기에 삽입 -->
+        <!-- Article Description -->
+        <div class="container content-space-t-3 content-space-t-lg-4 content-space-b-2">
+            <div class="w-lg-65 mx-lg-auto">
+                <div class="mb-4">
+                    <h1 class="h2">도소매업의 부가가치세 실무에 대해 알아보세요</h1>
+                </div>
+
+                <div class="row align-items-sm-center mb-5">
+                    <div class="col-sm-7 mb-4 mb-sm-0">
+                        <!-- Media -->
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                                <img class="avatar avatar-circle" src="../img/160x160/img_JHL.jpg"
+                                    alt="Image Description">
+                            </div>
+
+                            <div class="flex-grow-1 ms-3">
+                                <h5 class="mb-0">
+                                    <a class="text-dark" href="../blog-author-profile">바인드회계세무</a>
+                                </h5>
+                                <span class="d-block small">June 2024</span>
+                            </div>
+                        </div>
+                        <!-- End Media -->
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Row -->
+
+                <div class="text-center mb-5">
+                    <img src="./img/1920x800/240620/img1.webp" alt="도소매업 시장" class="img-fluid">
+                </div>
+
+                <h3 class="mt-5 mb-4">도소매업의 정의</h3>
+                <p>도소매업은 상품을 대량으로 구매하여 소매업체나 최종 소비자에게 판매하는 업종을 말합니다. 도매업은 주로 다른 사업체에 대량으로 판매하며, 소매업은 최종 소비자에게 상품을 판매합니다.
+                    도소매업은 슈퍼마켓, 의류점, 전자제품 매장 등 다양한 형태가 있습니다.</p>
+
+                <h3 class="mt-5 mb-4">도소매업의 경제적 역할 및 중요성</h3>
+                <p>도소매업은 지역 사회에 일자리를 창출하고, 소비자들에게 다양한 상품을 제공함으로써 경제 활성화에 기여합니다. 또한, 생산자와 소비자 간의 중간 역할을 수행하여, 제품 유통의 효율성을
+                    높이고 소비자 접근성을 향상시킵니다.</p>
+
+                <h3 class="mt-5 mb-4">부가가치세의 과세 대상</h3>
+
+                <h4 class="mt-5 mb-4">과세 대상 재화 및 용역의 범위</h4>
+                <p>부가가치세의 과세 대상은 도소매업에서 판매하는 대부분의 재화가 포함됩니다. 예를 들어, 의류, 전자제품, 가구 등의 상품이 이에 해당합니다.</p>
+
+                <h4 class="mt-5 mb-4">면세 대상 재화의 범위</h4>
+                <p>면세 대상은 주로 국민 생활에 필수적인 재화로, 예를 들어 쌀, 채소 등 기본 식료품이 포함됩니다. 이러한 면세 재화는 세금이 부과되지 않아 소비자 부담이 줄어듭니다.</p>
+
+                <h4 class="mt-5 mb-4">과세표준 계산 방법</h4>
+                <p>과세표준은 판매한 재화의 공급가액에서 매입세액을 차감하여 계산합니다. 예를 들어, 도소매업체가 10,000원의 상품을 판매하고, 이에 대한 매입세액이 1,000원일 경우 과세표준은
+                    9,000원이 됩니다.</p>
+
+                <h3 class="mt-5 mb-4">부가가치세의 공급시기</h3>
+
+                <h4 class="mt-5 mb-4">공급시기의 정의와 중요성</h4>
+                <p>공급시기는 부가가치세의 납부 시점을 결정하는 중요한 요소입니다. 상품을 판매한 날짜를 기준으로 하며, 이를 통해 정확한 납부 시점을 파악할 수 있습니다. 예를 들어, 고객이 상품을
+                    구입한 날짜가 공급시기가 됩니다.</p>
+
+                <h4 class="mt-5 mb-4">공급시기 결정 기준</h4>
+                <p>공급시기는 재화의 인도일을 기준으로 결정됩니다. 예를 들어, 상품을 고객에게 인도한 날짜가 공급시기로 간주됩니다.</p>
+
+                <h3 class="mt-5 mb-4">부가가치세의 세금계산서 발행</h3>
+
+                <h4 class="mt-5 mb-4">세금계산서 발행 기준</h4>
+                <p>도소매업에서 세금계산서를 발행해야 하는 기준은 대부분의 거래에 해당합니다. 거래 금액에 관계없이 세금계산서를 발행하는 것이 일반적입니다. 다만, 소매업의 경우 소비자에게 직접 판매할
+                    때는 세금계산서 발행이 의무는 아닙니다.</p>
+
+                <h4 class="mt-5 mb-4">발행 시점 및 절차</h4>
+                <p>세금계산서는 재화나 용역을 공급한 날이 속하는 달의 다음 달 10일까지 발행해야 합니다. 전자세금계산서는 국세청의 전자세금계산서 발행 시스템을 통해 발행할 수 있으며, 발행된
+                    세금계산서는 거래 당사자에게 전달되어야 합니다.</p>
+
+                <h4 class="mt-5 mb-4">세금계산서 미발행 시 제재 조치</h4>
+                <p>세금계산서를 발행하지 않으면 과태료 부과 등의 법적 제재를 받을 수 있습니다. 이는 세금 회피를 방지하고 투명한 거래를 촉진하기 위한 제도입니다.</p>
+
+                <h3 class="mt-5 mb-4">부가가치세 신고 및 납부 절차</h3>
+
+                <h4 class="mt-5 mb-4">신고 기한 및 방법</h4>
+                <p>부가가치세 신고는 분기별로 이루어지며, 정해진 기한 내에 국세청에 신고해야 합니다. 예를 들어, 1분기(1월~3월) 매출은 4월 25일까지 신고해야 합니다. 신고 방법은 전자신고를
+                    통해 이루어지며, 필요한 서류를 모두 제출해야 합니다.</p>
+
+                <h4 class="mt-5 mb-4">신고 시 유의사항</h4>
+                <p>신고 시 모든 매출과 매입을 정확히 기재해야 하며, 누락 시 불이익이 발생할 수 있습니다. 또한, 각종 공제 및 환급 요건을 철저히 확인해야 합니다.</p>
+
+                <h4 class="mt-5 mb-4">납부 기한 및 방법</h4>
+                <p>부가가치세 납부는 신고 후 정해진 기한 내에 납부해야 하며, 미납 시 가산세가 부과될 수 있습니다. 납부 방법은 은행이나 전자납부 시스템을 통해 가능합니다.</p>
+
+                <h3 class="mt-5 mb-4">부가가치세 환급 절차</h4>
+
+                    <h4 class="mt-5 mb-4">환급 조건 및 절차</h4>
+                    <p>부가가치세 환급은 매입세액이 매출세액을 초과할 경우 가능하며, 국세청에 환급 신청을 해야 합니다. 예를 들어, 신제품 출시로 인해 매입이 많았던 분기의 경우 환급 받을
+                        가능성이 높습니다. 환급 신청 시 필요한 서류를 모두 갖추어 제출해야 합니다.</p>
+
+                    <!-- End Row -->
+            </div>
+            <!-- 뒤로가기 버튼 추가 -->
+            <div class="container text-center">
+                <div class="w-md-75 text-center mx-md-auto mt-9">
+                    <a type="button" class="btn btn-dark" href="javascript:history.back()">뒤로가기</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ========== END MAIN CONTENT ========== -->
+
+    <div include-html="./footer"></div>
+
+    <!-- JS Global Compulsory -->
+    <script src="../vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <script src="../vendor/hs-header/dist/hs-header.min.js"></script>
+    <script src="../vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="../vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+    <script src="../vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+    <script src="../vendor/aos/dist/aos.js"></script>
+    <script src="../vendor/typed.js/lib/typed.min.js"></script>
+    <script src="../vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../vendor/hs-toggle-switch/dist/hs-toggle-switch.min.js"></script>
+
+    <!-- JS Front -->
+    <script src="../js/theme.min.js"></script>
+</body>
+
+</html>
