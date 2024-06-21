@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
@@ -7,6 +8,17 @@
 
     <!-- Title -->
     <title>바인드회계세무 - 세무사를 찾으시나요? 세금 신고 및 기장 대리, 전문 세무 회계 서비스</title>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W8G6HCB7');</script>
+    <!-- End Google Tag Manager -->
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./icon/logo_ico.jpg">
@@ -116,30 +128,6 @@
           }
         }
         </script>
-    <script type="application/ld+json">
-            {
-              "@context": "http://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "오픈이벤트 혜택이 있나요?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "오픈이벤트로 정가의 20% 할인을 제공합니다."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "그 외의 혜택은 없나요?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "지금 연락주시면 특별한 혜택을 대표님에게만 제공드립니다."
-                  }
-                }
-              ]
-            }
-    </script>
     <script>
         function includeHTML(callback) {
             var z, i, elmnt, file, xhttp;
@@ -149,7 +137,7 @@
                 file = elmnt.getAttribute("include-html");
                 if (file) {
                     xhttp = new XMLHttpRequest();
-                    xhttp.onreadystatechange = function() {
+                    xhttp.onreadystatechange = function () {
                         if (this.readyState == 4) {
                             if (this.status == 200) { elmnt.innerHTML = this.responseText; }
                             if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
@@ -222,7 +210,7 @@
                     },
                 },
                 on: {
-                    'afterInit': function(swiper) {
+                    'afterInit': function (swiper) {
                         swiper.el.querySelectorAll('.js-swiper-pagination-progress-body-helper')
                             .forEach($progress => $progress.style.transitionDuration = `${swiper.params.autoplay.delay}ms`);
                     }
@@ -242,17 +230,23 @@
             new HSToggleSwitch('.js-toggle-switch');
         }
 
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             includeHTML(initScripts);
         });
     </script>
 </head>
+
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns?id=GTM-W8G6HCB7" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div include-html="header"></div>
 
     <main id="content" role="main">
         <!-- 메인 콘텐츠 여기에 삽입 -->
-         <!-- Gallery -->
+        <!-- Gallery -->
         <div class="container content-space-t-3 content-space-t-lg-5">
             <!-- Heading -->
             <div class="w-lg-75 text-center mx-lg-auto mb-5 mb-md-9">
@@ -587,4 +581,5 @@
     <!-- JS Front -->
     <script src="./js/theme.min.js"></script>
 </body>
+
 </html>
